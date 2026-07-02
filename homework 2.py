@@ -1,12 +1,6 @@
 
 number = int(input('Enter your number: '))
 
-# number_1 = (number // 10000)
-# number_2 = (number // 1000 % 10)
-# number_3 = (number // 100 % 10)
-# number_4 = (number // 10 % 1000 )
-# number_5 = (number // 1)
-
 number_1 = (number % 10 )
 number_2 = (number % 100 // 10 )
 number_3 = (number % 1000 // 100 )
