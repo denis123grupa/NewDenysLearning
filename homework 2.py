@@ -16,14 +16,3 @@ result_5 = (number_5 * 1)
 
 print(result_1 + result_2 + result_3 + result_4 + result_5)
 
-
-
-
-
-
-# number_1 = (number // 10000)
-# number_2 = (number // 1000 % 10 )
-# number_3 = (number // 100 % 10)
-# number_4 = (number // 10 % 10)
-# number_5 = (number % 10)
-# print(number_5 + number_4 + number_3 + number_2 + number_1)
