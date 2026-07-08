@@ -15,11 +15,3 @@ else:
     print("Cannot divide by zero")
 
 
-
-
-# elif numebrs_3 == 0:
-#     print("Cannot divide by zero")
-
-
-# if numebrs_3 == False:
-#     print("Cannot divide by zero")
