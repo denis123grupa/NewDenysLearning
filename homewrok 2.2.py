@@ -1,17 +1,10 @@
-your_list = [1, 2, 3]
+numbers = ["How are you ?", "By", "Hello"]
 
-result = your_list[-1]
-your_list.pop()
-your_list.insert(0, result)
+if len(numbers) <= 1:
+    print(numbers)
 
-print(your_list)
-
-
-# if len(your_list) == [] or len(your_list) == [1]:
-# result = your_list.index(3)
-#
-# your_list.pop()
-#
-# your_list.insert(0, your_list)
-#
-# print(your_list)
+elif len(numbers) >= 1:
+    numbers_1 = numbers[-1]
+    numbers.insert(0, numbers_1)
+    numbers.pop()
+    print(numbers)
