@@ -8,4 +8,3 @@ elif len(numbers) >= 1:
     numbers.insert(0, numbers_1)
     numbers.pop()
     print(numbers)
-    a
