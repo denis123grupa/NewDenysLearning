@@ -15,3 +15,4 @@ elif summ_meaning % 2 > 0:
     second_part = numbers[result:]
     result_2 = [first_part, second_part]
     print(result_2)
+    a
