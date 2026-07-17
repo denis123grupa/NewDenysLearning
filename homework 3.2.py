@@ -5,8 +5,13 @@ new_list = []
 
 
 for elements in range(0, len(my_list), 2):
-    new_list.insert(0, elements)
-x = my_list.pop()
+  print(elements)
 
-result = new_list * x
-print(result)
+
+
+
+
+#     new_list.insert(0, elements)
+# x = my_list.pop()
+#
+# resul =
