@@ -11,7 +11,11 @@ else:
         if new == 0:
             continue
         new_list.append(new)
+
     zero = my_list.count(0)
     for x in range(zero):
         new_list.append(0)
+
+
+
     print(new_list)
