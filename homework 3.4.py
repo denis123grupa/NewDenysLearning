@@ -1,0 +1,39 @@
+
+numbers_1 = int(input("Enter the first number: "))
+numbers_2 = input("Enter the operation:")
+numebrs_3 = int(input("Enter the second number:"))
+
+if numbers_2 == "+":
+    print(int(numbers_1 + numebrs_3))
+elif numbers_2 == "-":
+    print(numbers_1 - numebrs_3)
+elif numbers_2 == "*":
+    print(numbers_1 * numebrs_3)
+elif numbers_2 == "/" and numebrs_3 != 0:
+    print(numbers_1 / numebrs_3)
+else:
+    print("Cannot divide by zero")
+
+question = str(input("Do you want to continue counting? Please enter yes or no:  " ))
+
+while question == "yes":
+    numbers_1 = int(input("Enter the first number: "))
+    numbers_2 = input("Enter the operation:")
+    numebrs_3 = int(input("Enter the second number:"))
+
+
+    if numbers_2 == "+":
+        print(int(numbers_1 + numebrs_3))
+    elif numbers_2 == "-":
+        print(numbers_1 - numebrs_3)
+    elif numbers_2 == "*":
+        print(numbers_1 * numebrs_3)
+    elif numbers_2 == "/" and numebrs_3 != 0:
+        print(numbers_1 / numebrs_3)
+    else:
+        print("Cannot divide by zero")
+
+
+    question = str(input("Do you want to continue counting? Please enter yes or no:  "))
+
+
