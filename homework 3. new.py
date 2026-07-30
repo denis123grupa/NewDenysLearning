@@ -125,6 +125,25 @@
 
 # 6.
 
+my_list = [1, 0, 5, 6, 7, 0]
+
+index = 0
+x = 0
+
+while x < len(my_list):
+
+    if my_list[x] != 0:
+        my_list[x], my_list[index] = my_list[index], my_list[x]
+        index += 1
+    x += 1
+
+print(my_list)
+#
+
+
+
+
+
 # my_list = [1, 0, 5, 6, 7, 0]
 #
 # index = 0
@@ -139,21 +158,21 @@
 
 # while for 4th.
 
-my_list = [1, 0, 5, 6, 7, 0, 9]
-what_we_want_to_find = 0
-number_of_iterations = my_list.count(what_we_want_to_find)
-
-new_list = []
-index = 0
-
-while index < number_of_iterations:
-
-    my_list.remove(what_we_want_to_find)
-    my_list.append(what_we_want_to_find)
-
-    index += 1
-
-print(my_list)
+# my_list = [1, 0, 5, 6, 7, 0, 9]
+# what_we_want_to_find = 0
+# number_of_iterations = my_list.count(what_we_want_to_find)
+#
+# new_list = []
+# index = 0
+#
+# while index < number_of_iterations:
+#
+#     my_list.remove(what_we_want_to_find)
+#     my_list.append(what_we_want_to_find)
+#
+#     index += 1
+#
+# print(my_list)
 
 # for _ in range(number_of_iterations):
 #
