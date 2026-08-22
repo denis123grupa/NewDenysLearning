@@ -31,8 +31,3 @@ if ok == "yes":
 else:
     print(f" Then let’s leave it encrypted:   {encrypted_name}")
 
-
-
-
-
-
