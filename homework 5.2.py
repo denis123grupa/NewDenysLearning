@@ -18,14 +18,13 @@ if value >= 0 and value < 8640000:
     full_minutes = (str(minutes)).zfill(2)
     full_seconds = (str(seconds)).zfill(2)
 
-
-
-
     if days < 10:
         result = f"{days} day, {full_hours}:{full_minutes}:{full_seconds}"
     else:
         result = f"{days} days, {full_hours}:{full_minutes}:{full_seconds}"
     print(result)
+
+
 
 else:
     print("Your number does not meet the condition")
