@@ -1,19 +1,16 @@
 
 
-number = input("Enter your namber :")
-new = 1
+
+number = int(input("Enter your namber :"))
 
 
+while number > 9:
+    new = 1
+    for y in str(number):
+        new = new * int(y)
 
-for x in number:
-    new = new * int(x)
+    number = new
 
-while new > 9:
-    new_list = 1
-
-    for y in str(new):
-        new_list = new_list * int(y)
-
-    new = new_list
 print(new)
+
 
