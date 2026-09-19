@@ -4,7 +4,7 @@ def find_unique_value(n):
 
     for value in n:
         summ_value = n.count(value)
-        if summ_value < 2:
+        if summ_value == 1:
          return value
 
 result = find_unique_value([1, 2, 1, 1])
