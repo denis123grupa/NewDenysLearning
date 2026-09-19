@@ -2,10 +2,10 @@
 
 def find_unique_value(n):
 
-    for x, y in enumerate(n):
-        new = n.count(y)
-        if new < 2:
-         return y
+    for value in n:
+        summ_value = n.count(value)
+        if summ_value < 2:
+         return value
 
 result = find_unique_value([1, 2, 1, 1])
 
