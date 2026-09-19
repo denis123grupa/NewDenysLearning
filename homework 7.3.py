@@ -7,6 +7,7 @@ def find_unique_value(n):
     from decimal import Decimal
 
     n = [value_1 for value_1 in n if isinstance(value_1, (int, float, Decimal))]
+
     for value_2 in n:
         summ_value = n.count(value_2)
         if summ_value == 1:
