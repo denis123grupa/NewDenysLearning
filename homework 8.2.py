@@ -23,9 +23,6 @@ print('OK')
 
 
 
-
-
-
 ##### option 2 ######
 
 def difference(*args):
