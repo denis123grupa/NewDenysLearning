@@ -17,19 +17,20 @@
 
 ##### option 2 ######
 
-?????
-
 def popular_words(my_str, my_list):
     def list_lowercase_only(my_str):
         new_list_1 = [x for x in my_str.lower().split(" ")]
         return new_list_1
 
-    def count_values_to_dict(*args):
+    def count_values_to_dict(new_list_1, my_list):
         result = {}
-        for x in args:
-            summ_count = args.count(x)
+        for x in my_list:
+            summ_count = my_list.count(x)
             result.update({x: summ_count})
         return result
 
-print(popular_words('''When I was One I had just begun When I was Two I was nearly new ''', ['i', 'was', 'three', 'near']))
+    words = list_lowercase_only(my_str)
+    return count_values_to_dict(words, my_list)
 
+
+print(popular_words('''When I was One I had just begun When I was Two I was nearly new ''', ['i', 'was', 'three', 'nea
