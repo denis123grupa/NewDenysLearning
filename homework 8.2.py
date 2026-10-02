@@ -51,7 +51,9 @@ print('OK')
 #
 #     min_value = my_min_value(*args)
 #     max_value = my_max_value(*args)
+
 #     result = first_difference_values(max_value,min_value)
+
 #     return round(result, 1)
 #
 #
