@@ -67,10 +67,10 @@ def first_word(text):
             if value.isalpha() or value == "'" or value.isspace():
                 first_text += value
             else: first_text += " "
+
         return first_text
 
     def list_without_spaces():
-
         new_text = result.strip().split()
 
         return new_text[0]
