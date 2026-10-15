@@ -1,4 +1,4 @@
-####### option 1 ######
+###### option 1 ######
 
 def is_even(value):
     if value % 2 == 0:
@@ -16,7 +16,7 @@ assert is_even(0) == True, 'Test3'
 
 print('OK')
 
-#### option 2 #####
+### option 2 #####
 
 def is_even(value):
 
