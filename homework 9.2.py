@@ -79,7 +79,7 @@ def first_word(text):
     word = list_without_spaces()
     return word
 
-print(first_word( " ,. 2 don't tuch  "))
+print(first_word( " ,. 2 don't. tuch  "))
 
 assert first_word("Hello world") == "Hello", 'Test1'
 assert first_word("greetings, friends") == "greetings", 'Test2'
