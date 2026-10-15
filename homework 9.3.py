@@ -1,12 +1,10 @@
 
 def pow(x):
     return x ** 2
-
 def some_gen(begin, end, func):
     for x in range(end):
         yield begin
         begin = func(begin)
-
 
 from inspect import isgenerator
 
