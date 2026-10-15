@@ -72,7 +72,6 @@ def first_word(text):
 
     def list_without_spaces():
         new_text = result.strip().split()
-
         return new_text[0]
 
     result = letters_and_spaces()
