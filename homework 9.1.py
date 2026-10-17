@@ -1,4 +1,4 @@
-###### option 1 ######
+
 
 def is_even(value):
     if value % 2 == 0:
