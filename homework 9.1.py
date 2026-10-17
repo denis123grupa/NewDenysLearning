@@ -1,41 +1,41 @@
-##### option 1 ######
+# ##### option 1 ######
+#
+# def is_even(value):
+#     if value % 2 == 0:
+#         return True
+#     else:
+#         return False
+#
+# print(is_even(4))
+#
+# assert is_even(2) == True, 'Test1'
+#
+# assert is_even(5) == False, 'Test2'
+#
+# assert is_even(0) == True, 'Test3'
+#
+# print('OK')
 
-def is_even(value):
-    if value % 2 == 0:
-        return True
-    else:
-        return False
+## option 2 #####
 
-print(is_even(4))
+# def is_even(value):
+#
+#     if not str(value).strip("-").isdigit():
+#         return "Sorry, the value is not a digit"
+#     else:
+#         return True if value % 2 == 0 else False
+#
+# print(is_even(-4))
+#
+# assert is_even(2) == True, 'Test1'
+#
+# assert is_even(5) == False, 'Test2'
+#
+# assert is_even(0) == True, 'Test3'
+#
+# print('OK')
 
-assert is_even(2) == True, 'Test1'
-
-assert is_even(5) == False, 'Test2'
-
-assert is_even(0) == True, 'Test3'
-
-print('OK')
-
-### option 2 #####
-
-def is_even(value):
-
-    if not str(value).strip("-").isdigit():
-        return "Sorry, the value is not a digit"
-    else:
-        return True if value % 2 == 0 else False
-
-print(is_even(-4))
-
-assert is_even(2) == True, 'Test1'
-
-assert is_even(5) == False, 'Test2'
-
-assert is_even(0) == True, 'Test3'
-
-print('OK')
-
-###### option 3 ######
+##### option 3 ######
 
 def is_even(value):
 
